@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 public class ToDoService {
     public void addTask(String task) {
         // Logique pour ajouter une tâche
+
         System.out.println("Tâche ajoutée : " + task);
     }
 
@@ -14,3 +15,4 @@ public class ToDoService {
         System.out.println("Mise à jour de la tâche : " + task);
     }
 }
+
